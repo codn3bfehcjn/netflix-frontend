@@ -27,8 +27,6 @@ nav {
     width: 84vw;
     position: relative;
     top: 30px;
-    /* background-color: red; */
-    /* margin-left:100px ; */
 }
 
 img {
@@ -59,7 +57,6 @@ img {
 
 .btn .lang:focus {
     border: 3px solid white;
-    /* box-shadow: 2px 2px 5px; */
 }
 
 .btn .sign {
@@ -219,34 +216,6 @@ img {
     position: relative;
 }
 
-/* .anima {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 420px;
-    left: 462px;
-    width: 19vw;
-    margin-left: 50px;
-    z-index: 99;
-    padding: 1px 30px 10px 30px;
-    overflow: hidden;
-    background-color: black;
-    border: 2px solid white;
-    border-radius: 20px
-}
-
-@media (max-width:1934px){
-    .anima{
-      left: 33.8vw;
-}
-} */
-
-/* .anima>:nth-child(1){
-    padding: 10px 10px;
-} */
-
-
 .main4 {
     margin-top: 100px;
     color: white;
@@ -374,12 +343,10 @@ img {
     .inp input,
     .inp button {
         box-sizing: border-box;
-        /* Ensure padding is included in width */
     }
 
     .inp button {
         margin-top: 4px;
-        /* Add space between input and button */
     }
 
     .foot {
