@@ -9,7 +9,7 @@ body {
 }
 
 .one {
-    background-image: url(/netflix-frontend/assets/netflix.jpg);
+    background-image: url(/assets/netflix.jpg);
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
@@ -27,6 +27,8 @@ nav {
     width: 84vw;
     position: relative;
     top: 30px;
+    /* background-color: red; */
+    /* margin-left:100px ; */
 }
 
 img {
@@ -57,6 +59,7 @@ img {
 
 .btn .lang:focus {
     border: 3px solid white;
+    /* box-shadow: 2px 2px 5px; */
 }
 
 .btn .sign {
@@ -250,11 +253,12 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    gap: 10px;
 }
 
 .questions div {
     font-size: 1.6rem;
-    border: 2px solid black;
+    border: 2px solid rgba(39, 38, 38, 0.28);
     background-color: rgb(43, 40, 40);
     padding: 15px 15px;
     width: 64vw;
@@ -343,10 +347,12 @@ img {
     .inp input,
     .inp button {
         box-sizing: border-box;
+        /* Ensure padding is included in width */
     }
 
     .inp button {
         margin-top: 4px;
+        /* Add space between input and button */
     }
 
     .foot {
